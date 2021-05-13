@@ -1,0 +1,22 @@
+uuid: ca7cfff1-7770-46d5-b78e-769345cf56a7
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - realestate
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: realestate_help
+theme: realestate
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

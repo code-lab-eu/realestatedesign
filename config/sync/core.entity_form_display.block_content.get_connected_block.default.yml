@@ -1,0 +1,67 @@
+uuid: ea3d63ed-1a6e-4ad1-add3-52e313947b8c
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.get_connected_block
+    - field.field.block_content.get_connected_block.field_facebook_link
+    - field.field.block_content.get_connected_block.field_instagram_link
+    - field.field.block_content.get_connected_block.field_linkedin_link
+    - field.field.block_content.get_connected_block.field_phone_link
+    - field.field.block_content.get_connected_block.field_twitter_link
+  module:
+    - link
+id: block_content.get_connected_block.default
+targetEntityType: block_content
+bundle: get_connected_block
+mode: default
+content:
+  field_facebook_link:
+    weight: 29
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_instagram_link:
+    weight: 32
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_linkedin_link:
+    weight: 31
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_phone_link:
+    weight: 28
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_twitter_link:
+    weight: 30
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

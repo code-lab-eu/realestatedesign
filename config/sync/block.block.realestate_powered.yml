@@ -1,0 +1,22 @@
+uuid: 95be5feb-01ae-4899-8e71-e567f82b5909
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - realestate
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: realestate_powered
+theme: realestate
+region: footer_fifth
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 28c38611-e25a-402c-b812-1323bc29d8b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.get_connected_block
+    - field.storage.block_content.field_twitter_link
+  module:
+    - link
+id: block_content.get_connected_block.field_twitter_link
+field_name: field_twitter_link
+entity_type: block_content
+bundle: get_connected_block
+label: Twitter
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

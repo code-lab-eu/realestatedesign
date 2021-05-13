@@ -1,0 +1,22 @@
+uuid: 36d82cf1-ac1c-4889-811b-7af7d79837ba
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - realestate
+_core:
+  default_config_hash: oXUb3JZR2WW5VOdw4HrhRicCsq51mCgLfRyvheG68ck
+id: realestate_breadcrumbs
+theme: realestate
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

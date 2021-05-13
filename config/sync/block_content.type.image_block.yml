@@ -1,0 +1,8 @@
+uuid: a0e44b06-ded1-4395-a1c3-abdc3f488c94
+langcode: en
+status: true
+dependencies: {  }
+id: image_block
+label: 'Image block'
+revision: 1
+description: 'Information for the hero image.'

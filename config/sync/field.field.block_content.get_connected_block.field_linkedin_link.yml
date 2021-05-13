@@ -1,0 +1,23 @@
+uuid: 3bd9337d-d284-4a68-9f20-7afa939910b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.get_connected_block
+    - field.storage.block_content.field_linkedin_link
+  module:
+    - link
+id: block_content.get_connected_block.field_linkedin_link
+field_name: field_linkedin_link
+entity_type: block_content
+bundle: get_connected_block
+label: LinkedIn
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

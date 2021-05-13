@@ -1,0 +1,22 @@
+uuid: b6b33a14-2f45-40a1-8090-6b55de472348
+langcode: en
+status: true
+dependencies:
+  theme:
+    - realestate
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: realestate_local_tasks
+theme: realestate
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

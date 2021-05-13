@@ -1,0 +1,19 @@
+uuid: a7d0c824-7f67-4d8b-948d-deaa371cc611
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+id: block_content.field_phone_link
+field_name: field_phone_link
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 2
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

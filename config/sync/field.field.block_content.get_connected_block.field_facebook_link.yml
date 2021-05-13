@@ -1,0 +1,23 @@
+uuid: e8fdc460-86ca-4c17-8810-a1b9687ee63a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.get_connected_block
+    - field.storage.block_content.field_facebook_link
+  module:
+    - link
+id: block_content.get_connected_block.field_facebook_link
+field_name: field_facebook_link
+entity_type: block_content
+bundle: get_connected_block
+label: Facebook
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

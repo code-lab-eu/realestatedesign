@@ -1,0 +1,8 @@
+uuid: 84a8b6d1-0fb8-4b7d-a60b-6a6d50b51e59
+langcode: en
+status: true
+dependencies: {  }
+id: get_connected_block
+label: 'Get connected block'
+revision: 1
+description: 'Information that shown in the header in every page.'
