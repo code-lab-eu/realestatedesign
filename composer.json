@@ -16,9 +16,11 @@
     ],
     "require": {
         "composer/installers": "^1.9",
+        "drupal/bootstrap_barrio": "^5.1",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
-        "drupal/core-recommended": "^9.1"
+        "drupal/core-recommended": "^9.1",
+        "drush/drush": "^10.5"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -83,6 +85,12 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
-        }
+        },
+        "scripts":{
+            "post-update-cmd": [
+                "mkdir -p web/libraries/bootstrap",
+                "cp -R vendor/twbs/bootstrap/dist web/libraries/bootstrap"
+            ]
+        } 
     }
 }
