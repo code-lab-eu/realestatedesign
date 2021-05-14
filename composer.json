@@ -20,6 +20,7 @@
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-project-message": "^9.1",
         "drupal/core-recommended": "^9.1",
+        "drupal/page_manager": "^4.0@beta",
         "drupal/views_fractionslider": "^1.2",
         "drush/drush": "^10.5"
     },
