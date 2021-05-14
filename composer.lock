@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ebd7ee31fccc6cbc214f231b3c09a662",
+    "content-hash": "006eae89d2d5cd4ff0297263392feda2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1751,6 +1751,52 @@
                 "source": "https://github.com/drupal/core-recommended/tree/9.1.8"
             },
             "time": "2021-05-05T11:09:15+00:00"
+        },
+        {
+            "name": "drupal/views_fractionslider",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/views_fractionslider.git",
+                "reference": "8.x-1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/views_fractionslider-8.x-1.2.zip",
+                "reference": "8.x-1.2",
+                "shasum": "c5a6128e07bdb74704d03af34691ace28496f3b6"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9"
+            },
+            "require-dev": {
+                "drupal/fractionslider-fractionslider": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.2",
+                    "datestamp": "1586434324",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "monymirza",
+                    "homepage": "https://www.drupal.org/user/746344"
+                }
+            ],
+            "homepage": "https://www.drupal.org/project/views_fractionslider",
+            "support": {
+                "source": "https://git.drupalcode.org/project/views_fractionslider"
+            }
         },
         {
             "name": "drush/drush",
