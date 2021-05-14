@@ -1,0 +1,19 @@
+uuid: 039b1e3a-42c4-4631-8db8-17bee1eb99fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.who_we_are
+    - field.storage.block_content.field_who_we_are_body
+id: block_content.who_we_are.field_who_we_are_body
+field_name: field_who_we_are_body
+entity_type: block_content
+bundle: who_we_are
+label: Body
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

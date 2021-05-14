@@ -1,0 +1,58 @@
+uuid: d8e30976-d653-461b-863a-92a286e9eb84
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.who_we_are
+    - field.field.block_content.who_we_are.field_who_we_are_body
+    - field.field.block_content.who_we_are.field_who_we_are_link
+    - field.field.block_content.who_we_are.field_who_we_are_subtitle
+    - field.field.block_content.who_we_are.field_who_we_are_title
+  module:
+    - link
+id: block_content.who_we_are.default
+targetEntityType: block_content
+bundle: who_we_are
+mode: default
+content:
+  field_who_we_are_body:
+    weight: 28
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_who_we_are_link:
+    weight: 29
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_who_we_are_subtitle:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_who_we_are_title:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

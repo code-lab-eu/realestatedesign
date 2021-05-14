@@ -1,0 +1,23 @@
+uuid: 5ecb4df5-0036-4e82-bf10-cb7e04134bd0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.who_we_are
+    - field.storage.block_content.field_who_we_are_link
+  module:
+    - link
+id: block_content.who_we_are.field_who_we_are_link
+field_name: field_who_we_are_link
+entity_type: block_content
+bundle: who_we_are
+label: Link
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 1
+  title: 2
+field_type: link

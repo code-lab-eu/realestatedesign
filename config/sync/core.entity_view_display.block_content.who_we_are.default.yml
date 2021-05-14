@@ -1,0 +1,53 @@
+uuid: cf402b60-2dcb-4f23-a010-ff1932a3e040
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.who_we_are
+    - field.field.block_content.who_we_are.field_who_we_are_body
+    - field.field.block_content.who_we_are.field_who_we_are_link
+    - field.field.block_content.who_we_are.field_who_we_are_subtitle
+    - field.field.block_content.who_we_are.field_who_we_are_title
+  module:
+    - link
+id: block_content.who_we_are.default
+targetEntityType: block_content
+bundle: who_we_are
+mode: default
+content:
+  field_who_we_are_body:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_who_we_are_link:
+    weight: 3
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_who_we_are_subtitle:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_who_we_are_title:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

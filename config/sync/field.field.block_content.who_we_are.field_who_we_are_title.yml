@@ -1,0 +1,19 @@
+uuid: 1f2ade4f-49e8-4ef7-be37-01f640ff35fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.who_we_are
+    - field.storage.block_content.field_who_we_are_title
+id: block_content.who_we_are.field_who_we_are_title
+field_name: field_who_we_are_title
+entity_type: block_content
+bundle: who_we_are
+label: Title
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

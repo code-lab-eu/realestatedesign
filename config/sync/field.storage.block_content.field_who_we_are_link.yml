@@ -1,0 +1,19 @@
+uuid: 7e04e912-124c-48a6-bc07-6937fe5432be
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+id: block_content.field_who_we_are_link
+field_name: field_who_we_are_link
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
