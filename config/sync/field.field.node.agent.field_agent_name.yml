@@ -1,0 +1,19 @@
+uuid: 72007a14-4722-4686-bb7d-5f42106d2b01
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_agent_name
+    - node.type.agent
+id: node.agent.field_agent_name
+field_name: field_agent_name
+entity_type: node
+bundle: agent
+label: Name
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

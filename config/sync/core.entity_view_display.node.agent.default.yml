@@ -1,0 +1,47 @@
+uuid: 50621fc2-9b23-48b6-ba3c-8784d0917984
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.agent.field_agent_name
+    - field.field.node.agent.field_agent_profile_picture
+    - field.field.node.agent.field_agent_role
+    - node.type.agent
+  module:
+    - image
+    - user
+id: node.agent.default
+targetEntityType: node
+bundle: agent
+mode: default
+content:
+  field_agent_name:
+    weight: 103
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_agent_profile_picture:
+    weight: 102
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_agent_role:
+    weight: 104
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

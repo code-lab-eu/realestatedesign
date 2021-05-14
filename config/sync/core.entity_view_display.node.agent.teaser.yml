@@ -1,0 +1,26 @@
+uuid: 06ab947d-a1ce-477e-a4fe-6e8061c99f37
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.agent.field_agent_name
+    - field.field.node.agent.field_agent_profile_picture
+    - field.field.node.agent.field_agent_role
+    - node.type.agent
+  module:
+    - user
+id: node.agent.teaser
+targetEntityType: node
+bundle: agent
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_agent_name: true
+  field_agent_profile_picture: true
+  field_agent_role: true
