@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.node.testimonial.field_testimonial_body
     - field.field.node.testimonial.field_testimonial_company
-    - field.field.node.testimonial.field_testimonial_name
     - field.field.node.testimonial.field_testimonial_profile_img
     - field.field.node.testimonial.field_testimonial_role
     - image.style.thumbnail
@@ -34,14 +33,6 @@ content:
     region: content
   field_testimonial_company:
     weight: 123
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_testimonial_name:
-    weight: 121
     settings:
       size: 60
       placeholder: ''
