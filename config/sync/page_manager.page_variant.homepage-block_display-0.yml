@@ -1,0 +1,35 @@
+uuid: 6d02730a-a0bf-4ec8-8d23-71736d60fe00
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.homepage
+    - views.view.testimonials
+  module:
+    - views
+id: homepage-block_display-0
+label: 'Block page'
+variant: block_display
+variant_settings:
+  blocks:
+    2173d343-531b-4e81-9c8b-3917fe26ba98:
+      id: 'views_block:testimonials-block_1'
+      label: ''
+      provider: views
+      label_display: '0'
+      views_label: ''
+      items_per_page: none
+      region: top
+      weight: 0
+      uuid: 2173d343-531b-4e81-9c8b-3917fe26ba98
+      context_mapping: {  }
+  id: block_display
+  uuid: 594d4cf9-2cdf-4499-91cd-9956de538587
+  label: null
+  weight: 0
+  page_title: Homepage
+page: homepage
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }
