@@ -1,0 +1,54 @@
+uuid: 5322ce35-93e1-4410-9ee1-365a6b59d196
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.slide
+    - field.field.node.testimonial.field_testimonial_body
+    - field.field.node.testimonial.field_testimonial_company
+    - field.field.node.testimonial.field_testimonial_profile_img
+    - field.field.node.testimonial.field_testimonial_role
+    - image.style.thumbnail
+    - node.type.testimonial
+  module:
+    - image
+    - user
+id: node.testimonial.slide
+targetEntityType: node
+bundle: testimonial
+mode: slide
+content:
+  field_testimonial_body:
+    weight: 4
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_testimonial_company:
+    weight: 2
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_testimonial_profile_img:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: thumbnail
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_testimonial_role:
+    weight: 3
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  links: true
