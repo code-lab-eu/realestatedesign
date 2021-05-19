@@ -5,7 +5,10 @@ dependencies:
   config:
     - page_manager.page.homepage
     - views.view.testimonials
+  content:
+    - 'block_content:image_block:b4562afa-476c-4823-a04f-7ea11fed3bed'
   module:
+    - block_content
     - views
 id: homepage-block_display-0
 label: 'Block page'
@@ -22,6 +25,18 @@ variant_settings:
       region: top
       weight: 0
       uuid: 6406a07f-d731-43e5-8265-04a3f8a3e4e2
+      context_mapping: {  }
+    09f3f777-614c-4be2-a858-b1f76b9ff584:
+      id: 'block_content:b4562afa-476c-4823-a04f-7ea11fed3bed'
+      label: 'Hero image'
+      provider: block_content
+      label_display: visible
+      status: true
+      info: ''
+      view_mode: full
+      region: top
+      weight: 0
+      uuid: 09f3f777-614c-4be2-a858-b1f76b9ff584
       context_mapping: {  }
   id: block_display
   uuid: 8f1c8e4b-7e44-40c0-80d2-d9454a679dd3
