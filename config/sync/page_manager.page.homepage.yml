@@ -1,4 +1,4 @@
-uuid: 2960b3cb-2c8c-47da-b71d-6f2bdf06cd67
+uuid: 164abb77-2788-4de1-8605-55350993b380
 langcode: en
 status: true
 dependencies: {  }
@@ -6,7 +6,7 @@ id: homepage
 label: Homepage
 description: ''
 use_admin_theme: false
-path: /home
+path: /homepage
 access_logic: and
 access_conditions: {  }
 parameters: {  }
