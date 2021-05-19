@@ -1,0 +1,19 @@
+uuid: 611827f0-7f5b-4bee-82c7-3259df634fa2
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - link
+id: block_content.field_who_we_are_rent_link
+field_name: field_who_we_are_rent_link
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
