@@ -5,7 +5,8 @@ dependencies:
   config:
     - block_content.type.who_we_are
     - field.field.block_content.who_we_are.field_who_we_are_body
-    - field.field.block_content.who_we_are.field_who_we_are_link
+    - field.field.block_content.who_we_are.field_who_we_are_byu
+    - field.field.block_content.who_we_are.field_who_we_are_rent_link
     - field.field.block_content.who_we_are.field_who_we_are_subtitle
     - field.field.block_content.who_we_are.field_who_we_are_title
   module:
@@ -17,14 +18,26 @@ mode: default
 content:
   field_who_we_are_body:
     weight: 2
-    label: above
+    label: hidden
     settings: {  }
     third_party_settings: {  }
     type: basic_string
     region: content
-  field_who_we_are_link:
-    weight: 3
-    label: above
+  field_who_we_are_byu:
+    weight: 4
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_who_we_are_rent_link:
+    weight: 5
+    label: hidden
     settings:
       trim_length: 80
       url_only: false
