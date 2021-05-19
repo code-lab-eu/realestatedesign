@@ -20,24 +20,36 @@ variant_settings:
       id: 'views_block:testimonials-block_1'
       label: ''
       provider: views
-      label_display: visible
+      label_display: '0'
       views_label: ''
       items_per_page: none
       region: top
-      weight: 0
+      weight: -8
       uuid: 6406a07f-d731-43e5-8265-04a3f8a3e4e2
       context_mapping: {  }
     09f3f777-614c-4be2-a858-b1f76b9ff584:
       id: 'block_content:b4562afa-476c-4823-a04f-7ea11fed3bed'
       label: 'Hero image'
       provider: block_content
-      label_display: visible
+      label_display: '0'
       status: true
       info: ''
       view_mode: full
       region: top
-      weight: 0
+      weight: -10
       uuid: 09f3f777-614c-4be2-a858-b1f76b9ff584
+      context_mapping: {  }
+    eab39d9e-374e-4506-95c1-72445496a312:
+      id: 'block_content:e96a52af-3ea5-410b-ae6c-47951b838444'
+      label: 'Who we are'
+      provider: block_content
+      label_display: '0'
+      status: true
+      info: ''
+      view_mode: full
+      region: top
+      weight: -9
+      uuid: eab39d9e-374e-4506-95c1-72445496a312
       context_mapping: {  }
   id: block_display
   uuid: 8f1c8e4b-7e44-40c0-80d2-d9454a679dd3
